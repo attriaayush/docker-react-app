@@ -1,0 +1,8 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t aayushattri/docker-react-app -f Dockerfile.dev .
+script:
+  - docker run aayushattri/docker-react-app npm run test -- --coverage
