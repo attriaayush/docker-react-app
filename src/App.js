@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          This is magic
+          This is legit magic test test
         </a>
       </header>
     </div>
